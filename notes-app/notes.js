@@ -44,7 +44,7 @@ const listNotes = () => {
     })
 }
 
-const readNote = () => {
+const readNote = (title) => {
     const notes = loadNotes()
     const note = notes.find((note) => note.title === title)
 
